@@ -1,0 +1,43 @@
+<div class="row wrap">
+    <div class="col-md-offset-2 lognote">
+    	<h4>登陆须知:</h4>
+    	<p class="l_name text-info">用户名: 支持汉字，英文，数字，'-'，'_'，不超过20个字符</p>
+    	<p class="l_pass text-info">密码: 由英文，数字，常用字符组成，6-16个字符</p>
+    </div>
+	<form class="form-horizontal login col-md-7" role="form">
+		<div class="form-group">
+			<label for="inName" class="col-md-3 control-label">用户名</label>
+			<div class="col-md-9">
+				<input type="text" class="form-control" id="inName"></div>
+		</div>
+		<div class="form-group">
+			<label for="inPassword" class="col-md-3 control-label">密码</label>
+			<div class="col-md-9">
+				<input type="password" class="form-control" id="inPassword"></div>
+		</div>
+		<div class="form-group">
+			<div class="col-md-offset-4 col-md-4">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox">记住我</label>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<button type="submit" id="logsubmit" class="btn btn-info">登陆</button>
+			</div>
+		</div>
+	</form>
+	<div class="col-md-5">
+		<p>
+			还没有账号？
+			<br>	
+			<a href="#" id="logtoreg" data-toggle="modal" data-target="#register">立即注册</a>
+		</p>
+		<p>
+			其他账号登陆:
+			<br>	
+			<a href="#">QQ</a>
+			<a href="#">微博</a>
+		</p>
+	</div>
+</div>

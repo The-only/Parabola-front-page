@@ -1,0 +1,47 @@
+/*subject style*/
+.cont_head{
+	border-bottom: 2px solid #f2f1e5;
+	padding:10px 0 10px 15px;
+}
+.serchquest{
+	margin-top: 20px;
+}
+.description .panel-heading{
+	background-color: #e3decf;
+	background-image: none;
+}
+/*endsubject style*/
+
+/*submitcode style*/
+.subcode,.diawidth{
+	width: 870px!important;
+	margin-top: 40px;
+}
+.submitcode textarea{
+	height: 350px;
+	width: 820px;
+	resize:none;
+}
+.submitcode .col-sm-6{
+	line-height: 34px;
+}
+/*endsubmitcode style*/
+
+/*editCompet style*/
+.competrule{
+	margin-left: 96px;
+}
+.lanchcomp{
+	padding-top: 20px;
+}
+.delete .close{
+	float: none;
+	line-height: 34px;
+}
+/*editCompet style*/
+
+/*comsubList style*/
+.compettable{
+	margin-top: 20px;
+}
+/*endcomsubList style*/

@@ -1,0 +1,56 @@
+<!-- cont head -->
+<div class="row cont_head">
+	<div class="col-md-3">
+		<button data-toggle="modal" data-target="#rank" type="button" class="btn btn-info btn-lg">查看排行榜</button>
+	</div>
+	<div class="col-md-9">
+		<button data-toggle="modal" data-target="#submit" type="button" class="btn btn-info btn-lg">提交代码</button>
+	</div>
+</div>
+<include file="Subject:questionExtra" />
+<!-- /.cont head -->
+<div class="description">
+	<h3 class="text-muted">
+		564 找数组中的最大值
+		<span class="text-success">(Accepted)</span>
+		<small class="text-mute pull-right">AC率：36.36% (AC:8,SUB:22)</small>
+	</h3>
+	<div class="panel panel-default">
+		<div class="panel-heading">题目描述</div>
+		<div class="panel-body">
+			给出一个字符串的集合，再给出一个模式串，求用给定字符串集合中的元素（可重复使用），能匹配出模式串的最大长度（组合的元素必须连续，且必须从头开始匹配）。
+						比如字符串集合为：{AB,AC}
+						模式串为：ABACABACCAAB
+						那么答案为8，因为能够拼出的最长的模式串为 ABACABAC
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">输入描述</div>
+		<div class="panel-body">
+			有多组测试数据，输入至文件末尾。每组数据第一行为一个整数n（1
+			<=n<=10），代表集合中字符串的数量。接下来输入n个长度不超过10的字符串，构成一个字符串的集合>最后一行输入一个长度不超过100的模式串。所有字符串中的字符均为大写字母。</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">输出描述</div>
+			<div class="panel-body">每组测试数据只输出一行，即用所给集合中的元素所能匹配出的最长的模式串的长度。</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">输入样例</div>
+			<div class="panel-body">
+				2 
+						AB AC 
+						ABACABACCAAB
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">输出样例</div>
+			<div class="panel-body">8</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">说明</div>
+			<div class="panel-body">
+				内存阈值:50240K 
+				耗时阈值:1000MS
+			</div>
+		</div>
+	</div>

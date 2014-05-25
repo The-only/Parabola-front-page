@@ -1,0 +1,57 @@
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+	    <div class="row">
+	    	<p class="copyright col-md-8">
+				<span class="glyphicon glyphicon-heart"></span>
+				Copyright © 2014 大连民族学院 李锡祚工作室 Parabola团队   All Rights Reserved. v6.5.0
+			</p>
+			<ul class="extra col-md-4">
+				<li><a href="#">后台登陆</a></li>
+				<li><a href="#">关于</a></li>
+				<li><a href="#">联系</a></li>
+			</ul>
+	    </div>
+    </div>
+</div>
+<!-- endfooter -->
+
+
+<!-- build:js scripts/vendor.js -->
+<script src="__PUBLIC__/lib/jquery/dist/jquery.min.js"></script>
+<!-- endbuild -->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+<!-- build:js scripts/plugins.js -->
+<script type="text/javascript" src="__PUBLIC__/lib/bootstrap/dist/js/moment.min.js"></script>
+<script src="__PUBLIC__/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/bootstrap/dist/js/bootstrap-datetimepicker.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js({app,.tmp}) scripts/user-defined -->
+    <script src="__PUBLIC__/scripts/selflib.js"></script>
+    <script src="__PUBLIC__/scripts/main.js"></script>
+    <script src="__PUBLIC__/scripts/judge.js"></script>
+<!-- endbuild -->
+<script>
+	var handleloginUrl = '{:U("Public/login", "", "")}';
+	var handleregisterUrl = '{:U("Public/register", "", "")}';
+	var handlechangeUrl = '{:U("Public/change", "", "")}';
+	var lanchcompetitionUrl = '{:U("Competition/handlelanchcompet", "", "")}';
+	var handleshowsubmitUrl = '{:U("Submitstate/showsubmit","","")}';
+	var handleshowsubjectUrl = '{:U("Subject/showsubject","","")}';
+	var handlesubmitcodeUrl = '{:U("Subject/submitcode","","")}';
+	var handleuserinfoUrl = '{:U("Public/userinfo","","")}';
+</script>
+</body>
+</html>

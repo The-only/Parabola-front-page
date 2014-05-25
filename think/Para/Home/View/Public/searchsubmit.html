@@ -1,0 +1,37 @@
+<form class="form-horizontal" id="searchsubmit" role="form">
+  <div class="form-group col-md-3">
+    <label for="questionnum" class="col-sm-3 control-label">题号</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" name="questionnum" id="questionnum" placeholder="输入题号">
+    </div>
+  </div>
+  <div class="form-group col-md-4">
+    <label for="people" class="col-sm-3 control-label">用户名</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" name="people" id="people" placeholder="请输入用户名">
+    </div>
+  </div>
+  <div class="form-group col-md-4">
+    <label for="state" class="col-sm-3 control-label">状态</label>
+    <div class="col-sm-9">
+      <select name="state" class="form-control">
+        <option selected="" value=""></option>
+        <option value="1">Accepted</option>
+        <option value="2">PresentationError</option>
+        <option value="3">WrongAnswer</option>
+        <option value="4">RuntimeError</option>
+        <option value="5">TimeLimitExceed</option>
+        <option value="6">MemoryLimitExceed</option>
+        <option value="7">SystemCallError</option>
+        <option value="8">CompileError</option>
+        <option value="9">SystemError</option>
+        <option value="10">ValidateError</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group col-md-1">
+    <div class="col-sm-12">
+      <button id="search_state" type="submit" class="btn btn-info">查找</button>
+    </div>
+  </div>
+</form>

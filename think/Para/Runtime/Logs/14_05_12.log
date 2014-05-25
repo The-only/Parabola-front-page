@@ -1,0 +1,428 @@
+[ 2014-05-12T16:57:42+08:00 ] 127.0.0.1 /think/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.302880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017887s ]
+
+[ 2014-05-12T16:57:53+08:00 ] 127.0.0.1 /think/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2014-05-12T16:57:54+08:00 ] 127.0.0.1 /think/index.php/Home/Subject/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2014-05-12T16:57:57+08:00 ] 127.0.0.1 /think/index.php/Home/Rank/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2014-05-12T16:57:58+08:00 ] 127.0.0.1 /think/index.php/Home/Competition/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2014-05-12T16:57:59+08:00 ] 127.0.0.1 /think/index.php/Home/Rank/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2014-05-12T16:58:00+08:00 ] 127.0.0.1 /think/index.php/Home/Submitstate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002238s ]
+
+[ 2014-05-12T16:58:01+08:00 ] 127.0.0.1 /think/index.php/Home/Rank/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2014-05-12T16:58:02+08:00 ] 127.0.0.1 /think/index.php/Home/Submitstate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2014-05-12T16:58:03+08:00 ] 127.0.0.1 /think/index.php/Home/Competition/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2014-05-12T16:58:04+08:00 ] 127.0.0.1 /think/index.php/Home/Competition/lanchCompet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2014-05-12T16:58:30+08:00 ] 127.0.0.1 /think/index.php/Home/Subject/question
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2014-05-12T16:58:37+08:00 ] 127.0.0.1 /think/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2014-05-12T16:58:52+08:00 ] 127.0.0.1 /think/index.php/Home/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+
+[ 2014-05-12T16:58:55+08:00 ] 127.0.0.1 /think/index.php/Home/Submitstate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2014-05-12T16:58:58+08:00 ] 127.0.0.1 /think/index.php/Home/Submitstate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2014-05-12T16:59:00+08:00 ] 127.0.0.1 /think/index.php/Home/Submitstate/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2014-05-12T16:59:03+08:00 ] 127.0.0.1 /think/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2014-05-12T16:59:04+08:00 ] 127.0.0.1 /think/index.php/Home/Subject/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2014-05-12T16:59:05+08:00 ] 127.0.0.1 /think/index.php/Home/Competition/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-05-12T16:59:06+08:00 ] 127.0.0.1 /think/index.php/Home/Rank/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2014-05-12T17:47:32+08:00 ] 127.0.0.1 /think/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+

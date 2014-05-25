@@ -1,0 +1,27 @@
+<form class="submitcode clearfix" role="form">
+	<div class="form-group">
+		<div class="col-sm-6">
+			<label for="lang" class="control-label col-sm-3">程序语言:</label>
+			<div class="col-sm-9">
+				<select name="lang" class="form-control">
+					<option value="G++">G++</option>
+					<option value="GCC">C++</option>
+				</select>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<label class="col-sm-3 control-label">状态:</label>
+			<div class="col-sm-9">
+				<p id="sc_state" class="form-control-static text-danger">尚未提交</p>
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="code">代码:</label>
+		<textarea name="code" id="code"></textarea>
+	</div>
+	<div class="form-group pull-right">
+		<button type="reset" class="btn btn-info">重置</button>
+		<button type="submit" id="sub_code" class="btn btn-info">提交代码</button>
+	</div>
+</form>

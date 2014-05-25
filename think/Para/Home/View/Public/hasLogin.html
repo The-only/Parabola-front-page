@@ -1,0 +1,42 @@
+		<ul class="headreg pull-right">
+			<li><a href="" data-toggle="modal" data-target="#ownInfo">谢峰</a></li>
+			<li><a href="" data-toggle="modal" data-target="#modifypass">修改密码</a></li>
+			<li><a href="__APP__">退出</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- endheader -->
+<!-- ownInfoModal -->
+ <div class="modal fade" id="ownInfo" tabindex="-1" role="dialog" aria-labelledby="ownInfoLabel" aria-hidden="true">
+ 	<div class="modal-dialog lr_pos diawidth">
+ 		<div class="modal-content">
+ 			<div class="modal-header">
+ 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+ 				<h4 class="modal-title" id="ownInfoLabel">个人信息</h4>
+ 			</div>
+ 			<div class="modal-body">
+ 				<include file="Public:ownInfo" />
+ 			</div>
+ 		</div><!-- /.modal-content --> 
+ 	</div><!-- /.modal-dialog -->
+ </div>
+ <!-- /.modal --> 
+<!-- endlownInfoModal -->
+
+<!-- modifypassModal -->
+ <div class="modal fade" id="modifypass" tabindex="-1" role="dialog" aria-labelledby="modifypassLabel" aria-hidden="true">
+ 	<div class="modal-dialog lr_pos">
+ 		<div class="modal-content">
+ 			<div class="modal-header">
+ 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+ 				<h4 class="modal-title" id="modifypassLabel">修改密码</h4>
+ 			</div>
+ 			<div class="modal-body">
+ 				<include file="Public:modifypass" />
+ 			</div>
+ 		</div><!-- /.modal-content --> 
+ 	</div><!-- /.modal-dialog -->
+ </div>
+ <!-- /.modal --> 
+<!-- endlmodifypassModal -->
